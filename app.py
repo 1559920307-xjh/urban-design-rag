@@ -22,7 +22,7 @@ VECTOR_DB_PATH = 'faiss_index.bin'
 CHUNKS_PATH = 'text_chunks.json'
 
 # 硅基流动 API 配置（请替换为你的 API Key）
-SILICONFLOW_API_KEY = "sk-snsrtwxzrdvkwvcodkfoetvrludxtvtfgseeltxdssozezxu"  # 替换为你的密钥
+SILICONFLOW_API_KEY = "你的API密钥"  # 替换为你的密钥
 SILICONFLOW_MODEL = "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"  # 支持多种模型，如 Qwen、DeepSeek 等
 
 # 创建目录
