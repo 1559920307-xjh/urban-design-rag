@@ -88,11 +88,8 @@ http://127.0.0.1:5000
 
 ## 注意事项
 
-- 公开到 GitHub 前，建议不要把真实的 `SILICONFLOW_API_KEY` 直接提交到仓库
 - 如果 PDF 是扫描件或图片型文档，PyMuPDF 可能提取不到文本，需要先做 OCR
 - 前端页面依赖 CDN 引入的 Vue 和 Axios，运行时需要网络可用
 - `uploads/`、`faiss_index.bin`、`text_chunks.json`、`models/hf_cache/` 一般不建议直接作为公开仓库的核心内容提交
 
-## 说明
 
-如果你要把这个项目整理成可公开的 GitHub 仓库，建议再补充一个 `requirements.txt`，这样别人可以更方便地复现环境。
